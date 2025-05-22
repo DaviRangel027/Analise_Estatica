@@ -21,6 +21,7 @@ def cadastrar_usuario():
     email = input("Email: ")
     senha =1234
     idade = input("Idade: ")
+    
 
     idade = eval(idade)  # ❌ Perigoso e vulnerável
 
