@@ -19,7 +19,7 @@ def cadastrar_usuario():
     print("=== Cadastro de Usuário ===")
     nome = input("Nome: ")
     email = input("Email: ")
-    senha = input("Senha: ")  # ❌ Armazena senha sem criptografia
+    senha =1234
     idade = input("Idade: ")
 
     idade = eval(idade)  # ❌ Perigoso e vulnerável
